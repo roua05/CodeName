@@ -106,7 +106,7 @@ public class ServiceUtilisateur {
             try {
             
             if(json.equals("failed")) {
-                Dialog.show("Echec d'authentification","Email ou mot de passe éronné","OK",null);
+                Dialog.show("Echec d'authentification","vérfier l'email ou le mot de passe ","OK",null);
             }
             else {
                 System.out.println("data =="+json);
