@@ -146,7 +146,7 @@ public class ProfileForm extends BaseForm {
 //           
           
 //            SessionManager.setPhoto(nom.getText()+".jpg");
-            Dialog.show("Succès", "Modifications des coordonnées avec succès", "Ok", null);
+            Dialog.show("Succès", "Modifications avec succès", "Ok", null);
             ipDlg.dispose();
             refreshTheme();
             
