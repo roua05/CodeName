@@ -64,7 +64,7 @@ public class ServiceUtilisateur {
       //contrôle de saisie  
         if(nom.getText().equals(" ") && prenom.getText().equals(" ")&& password.getText().equals(" ") && email.getText().equals(" ")) {
             
-            Dialog.show("Erreur","Veuillez remplir les champs","OK",null);
+            Dialog.show("Erreur","Veuillez vérifier tout les champs !! ","OK",null);
             
         }
         
