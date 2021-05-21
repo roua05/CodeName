@@ -120,7 +120,7 @@ public class SignUpForm extends BaseForm {
         next.addActionListener((e) -> {
             
             ServiceUtilisateur.getInstance().signup( email,nom,prenom, password, adress, roles,speciality, res);
-            Dialog.show("Success","compte enregistré ! ","OK",null);
+            Dialog.show("Success","compte enregistré evec succès  ! ","OK",null);
             new SignInForm(res).show();
         });
     }
